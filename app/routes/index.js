@@ -2,6 +2,9 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model() {
-    return this.get('store').findAll('list');
+    return [
+      {title: "Default list"},
+      {title: "Default list 2"}
+    ]
   }
 });
