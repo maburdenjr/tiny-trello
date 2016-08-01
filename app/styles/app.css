@@ -1,0 +1,43 @@
+body, html {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F2F2F2;
+}
+
+.navbar-default {
+  border-radius: 0px;
+  background-image: none;
+  background-color: #000;
+  color: #FFF;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #666;
+}
+
+.navbar-default .navbar-brand {
+  color: #FFF;
+  text-shadow: none;
+  font-weight: 300;
+}
+
+.navbar-default .navbar-brand span {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a {
+  text-transform: uppercase;
+  text-shadow: none;
+  color: #CCC;
+  font-weight: 400;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #999;
+  font-weight: 400;
+}
+
+.navbar-default .navbar-nav > li > a.active {
+  font-weight: 600;
+  color: #FFF;
+}
