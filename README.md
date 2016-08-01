@@ -1,7 +1,6 @@
 # Tiny-trello
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Tiny Trello is a very light-weight version of the popular project management software Trello. In Tiny Trello, there is only one "Board", with many lists. This board is loaded by default each time you load the app, without any authentication or persistence.
 
 ## Prerequisites
 
