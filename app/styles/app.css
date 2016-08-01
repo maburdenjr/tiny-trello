@@ -79,3 +79,24 @@ body, html {
 .subnav h1 span {
   font-weight: 400;
 }
+
+.app-body {
+  position: relative;
+  margin-top: 20px;
+}
+.list-container {
+  background-color: #F2F2F2;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 15px;
+}
+
+.list-container h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.list-add {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
