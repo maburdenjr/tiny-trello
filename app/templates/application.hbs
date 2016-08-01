@@ -9,16 +9,18 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    {{#link-to 'index' class="navbar-brand"}}Tiny<span>Trello</span>{{/link-to}}
+                    {{#link-to 'index' class="navbar-brand"}}<span class="brand-title">MoveableInk</span> Tiny<span>Trello</span>{{/link-to}}
                 </div>
                 <div class="collapse navbar-collapse" id="trelloNavbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <li>{{#link-to 'boards'}}Boards{{/link-to}}</li>
-                        <li>{{#link-to 'settings'}}Settings{{/link-to}}</li>
+                        <li>{{#link-to 'boards'}}{{fa-icon "tasks"}}  Boards{{/link-to}}</li>
+                        <li>{{#link-to 'settings'}}{{fa-icon "cog"}} Settings{{/link-to}}</li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
-    <div id="trelloContainer">{{outlet}}</div>
+    <div id="trelloContainer" class="container-fluid">
+        {{outlet}}
+  </div>
 </div>

@@ -1,6 +1,10 @@
 body, html {
   font-family: 'Open Sans', sans-serif;
-  background-color: #F2F2F2;
+  background-color: #F8F8F8;
+}
+
+.navbar {
+  margin-bottom: 0;
 }
 
 .navbar-default {
@@ -18,6 +22,11 @@ body, html {
   color: #FFF;
   text-shadow: none;
   font-weight: 300;
+}
+
+.navbar-default .navbar-brand .brand-title {
+  font-weight: 400;
+  color: #ccc;
 }
 
 .navbar-default .navbar-brand span {
@@ -40,4 +49,33 @@ body, html {
 .navbar-default .navbar-nav > li > a.active {
   font-weight: 600;
   color: #FFF;
+}
+
+#trelloContainer {
+  position: relative;
+  width: 100%;
+}
+
+.subnav {
+  position: relative;
+  border-bottom: solid 1px rgb(210, 209, 209);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.board-title {
+  position: relative;
+  float: left;
+  width: 60%;
+}
+
+.subnav h1 {
+  margin: 0px;
+  font-weight: 300;
+}
+
+.subnav h1 span {
+  font-weight: 400;
 }

@@ -1,1 +1,16 @@
-{{outlet}}
+<div class="subnav">
+    <div class="board-title">
+        <h1>Front-End <span>Engineering</span></h1>
+    </div>
+    <div class="board-options">
+
+    </div>
+</div>
+<div class="app-body">
+    <div id="listGrid">
+    {{#each model as |listUnit|}}
+        {{trello-list list=listUnit}}
+      {{/each}}
+
+  </div>
+</div>
