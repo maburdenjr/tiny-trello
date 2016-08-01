@@ -6,13 +6,9 @@
         </div>
         <div class="list-add">
             {{#if showAddItemForm}}
-            <form class="form-inline">
-                <input type="text" class="form-control" placeholder="Title">
-                <a {{action 'cancelAdd'}} class="btn btn-default">Cancel</a>
-                <a {{action 'saveItem'}} class="btn btn-primary">Save</a>
-            </form>
+              {{add-task onAdd=(action 'addTask') cancelAdd=(action 'toggleForm')}}
             {{else}}
-              <a {{action 'addItem'}} class="btn btn-primary">Add Task</a>
+              <a {{action 'toggleForm'}} class="btn btn-primary">Add Task</a>
             {{/if}}
         </div>
      </div>
